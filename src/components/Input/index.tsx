@@ -11,7 +11,7 @@ const inputStyles = cva([
 	'transition-all',
 	'duration-100',
 	'outline-none',
-	'focus:outline-primary-100',
+	'focus:outline-primary-500 ',
 	'focus:border-transparent',
 	'placeholder:text-gray-400',
 	'placeholder:text-sm',
@@ -26,7 +26,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
 				ref={ref}
 				type="text"
 				autoComplete="off"
-				className={cn(inputStyles(), className)}
+				className={cn(inputStyles({ className }))}
 				{...props}
 			/>
 		);

@@ -16,34 +16,27 @@ type Story = StoryObj<typeof meta>;
 export const Text: Story = {
 	args: {
 		type: 'text',
-		placeholder: 'Insert text here...',
+		placeholder: 'Insert text here',
 	},
 };
 
 export const Password: Story = {
 	args: {
 		type: 'password',
-		placeholder: 'Insert password here...',
-	},
-};
-
-export const Email: Story = {
-	args: {
-		type: 'email',
-		placeholder: 'Insert email here...',
+		placeholder: 'Password',
 	},
 };
 
 export const Number: Story = {
 	args: {
 		type: 'number',
-		placeholder: 'Insert number here...',
+		placeholder: 'Number',
 	},
 };
 
 export const Date: Story = {
 	args: {
 		type: 'date',
-		placeholder: 'Insert date here...',
+		placeholder: 'Date',
 	},
 };
